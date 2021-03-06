@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,900"
+    />
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Raleway;
+      }
+
+      footer {
+        background-color: #292f33;
+        color: #ffffff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 40px 100px;
+        overflow: hidden;
+      }
+
+      .flexy {
+        display: flex;
+        //margin-bottom: 69px;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      .fwidth1 {
+        width: 33.33333%;
+        border: 1px solid gray;
+        text-align: center;
+        //padding: 20px;
+      }
+
+      .fwidth1 a.homestuff {
+        color: #e1e8ed;
+        font-weight: bold;
+        font-size: 69px;
+        padding-bottom: 30px;
+        width: 100%;
+        float: left;
+      }
+
+      .fwidth1 ul {
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      .fwidth1 li {
+        padding-bottom: 9px;
+      }
+
+      .fwidth1 li a {
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+
+      .fwidth2 {
+        width: 33.33333%;
+        border: 1px solid gray;
+        margin: 0 40px 0 40px;
+        padding-top: 20px;
+        text-align: center;
+      }
+
+      .fwidth2 img {
+        transition: 2s;
+      }
+
+      .fwidth2 img:hover {
+        transform: rotate(360deg);
+      }
+
+      .btnfooter {
+        display: inline-block;
+        background-color: #292f33;
+        color: #ffffff;
+        margin: 10px 5px 0 0;
+        padding: 12px 18px;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 4px;
+        transition: 1s;
+      }
+
+      .btnfooter:hover {
+        background-color: #3f729b;
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .fwidth3 {
+        width: 33.33333%;
+        border: 1px solid gray;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .fwidth3 img {
+        object-fit: contain;
+      }
+
+      ul.flinks {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      ul.flinks li {
+        display: inline-block;
+        font-size: 30px;
+        border: 1px solid gray;
+        padding: 18px 12px;
+      }
+
+      ul.flinks li:not(.lastbtn) {
+        margin-right: 32px;
+      }
+
+      ul.flinks li a {
+        transition: 1s;
+        padding: 6px 12px;
+        border-radius: 4px;
+      }
+
+      ul.flinks li:hover > a {
+        background-color: #3f729b;
+        text-decoration: none;
+      }
+
+      ul.subs {
+        list-style-type: none;
+        float: right;
+        //margin: 0;
+        //padding: 0;
+      }
+
+      ul.subs li {
+        display: inline-block;
+        font-size: 16px;
+      }
+
+      ul.subs li a {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <footer>
+      <div class="flexy">
+        <div class="fwidth1" style="max-width: 100%">
+          <a class="homestuff" href="#">HOME</a>
+          <ul>
+            <li><a href="#">navbar 1</a></li>
+            <li><a href="#">navbar 2</a></li>
+            <li><a href="#">navbar 3</a></li>
+            <li><a href="#">navbar 4</a></li>
+            <li><a href="#">navbar 5</a></li>
+            <li><a href="#">navbar 6</a></li>
+            <li><a href="#">navbar 7</a></li>
+          </ul>
+        </div>
+
+        <div class="fwidth2" style="max-width: 100%">
+          <a href="#">
+            <img
+              style="display: block; margin:0 auto; max-width: 100%"
+              src="src/navbar logo.png"
+            />
+          </a>
+
+          <p style="font-size: 20px">
+			Subscribe: </br>
+		    <a class="btnfooter" href="#">Online Edition</a>
+			<a class="btnfooter" href="#">Print</a>
+            <a class="btnfooter" href="#">Android/iOS</a>
+		  </p>
+        </div>
+
+        <div class="fwidth3" style="max-width: 100%">
+          <a href="#">
+            <img src="src/main article.png" style="width: 100%" />
+          </a>
+          <p style="margin: 0; padding: 0;">
+            Don't forget to subscribe to our newsletter!
+          </p>
+        </div>
+      </div>
+
+      <hr />
+      <ul class="flinks">
+        <li>
+          <a href="#">
+            <i style="margin-right: 5px;" class="fa fa-facebook-square"></i
+            >Facebook
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i style="margin-right: 5px" class="fa fa-twitter-square"></i
+            >Twitter
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i style="margin-right: 5px" class="fa fa-instagram"></i>Instagram
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i style="margin-right: 5px" class="fa fa-newspaper-o"></i>Subscribe
+          </a>
+        </li>
+
+        <li class="lastbtn">
+          <a href="#">
+            <i style="margin-right: 5px" class="fa fa-home"></i>Home
+          </a>
+        </li>
+      </ul>
+
+      <hr />
+
+      <div style="float: left; width: 100%; margin: 90px 0 0 0">
+		<hr />
+		
+        <p style="float: left; text-transform: uppercase; letter-spacing: 10px">
+		Static Website
+		<ul class="subs">
+	    <li><a href="#">Follow Us</a>|</li>
+		<li><a href="#">Online Edition</a>|</li>
+		<li><a href="#">Contact</a></li>
+	    </ul>
+		</p>
+      </div>
+    </footer>
+  </body>
+</html>
